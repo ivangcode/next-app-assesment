@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import { BooksContext } from "@/Books/BooksContext";
+import { BooksContext } from "@/store/Books/BooksContext";
 import { BooksContextType, Library } from "@/types";
 import { BookList } from "@/components/BookList";
 

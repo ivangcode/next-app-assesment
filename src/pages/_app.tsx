@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { BookState } from "@/Books/BookState";
+import { BookState } from "@/store/Books/BookState";
 
 const darkTheme = createTheme({
   palette: {

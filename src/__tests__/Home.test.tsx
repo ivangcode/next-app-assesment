@@ -2,7 +2,7 @@ import React from "react";
 import { render, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import Home from "../pages/index";
-import { BooksContext } from "@/Books/BooksContext";
+import { BooksContext } from "@/store/Books/BooksContext";
 import { BooksContextType } from "@/types";
 
 const mockPush = jest.fn();

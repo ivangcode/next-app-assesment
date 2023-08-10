@@ -1,4 +1,4 @@
-import { BooksContext } from "@/Books/BooksContext";
+import { BooksContext } from "@/store/Books/BooksContext";
 import { Library } from "@/types";
 import { useContext } from "react";
 import styles from "@/styles/BookList.module.css";

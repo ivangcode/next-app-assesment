@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { useContext, useEffect, useState } from "react";
 
-import { BooksContext } from "@/Books/BooksContext";
+import { BooksContext } from "@/store/Books/BooksContext";
 import styles from "../../styles/Book.module.css";
 import { Books, Library } from "@/types";
 import data from "../../data.json";
