@@ -1,10 +1,14 @@
 # Library App
 
-A simple library app built using Next.js and Material-UI that allows users to browse and view book details.
+Library app built using Next.js and Material-UI that allows users to browse and view book details.
 
 ## Project Overview
 
-This project is a small library app developed for educational purposes. It uses Next.js for server-side rendering and routing, and Material-UI for styling and components. The app showcases a list of books from a library, each displayed as a card with an image, title, and "Ver detalles" button that leads to a book details page.
+This project uses Next.js for server-side rendering and routing, and Material-UI for styling and components. The app showcases a list of books from a library, each displayed as a card with an image, title, and "Ver detalles" button that leads to a book details page.
+
+
+https://github.com/ivangcode/next-app-assesment/assets/73669701/6320c429-9e1e-461c-85b3-d8becb45f85b
+
 
 ## Features
 
@@ -12,6 +16,7 @@ This project is a small library app developed for educational purposes. It uses 
 - Ability to click on a "Ver detalles" button to navigate to a book details page.
 - Use of Next.js router for navigation between pages.
 - Implementation of dark mode using Material-UI's ThemeProvider.
+- A drop-down button to see the book synopsis
 
 ## Components
 
@@ -23,9 +28,15 @@ A component that displays book information within a Material-UI Card. Each card 
 
 A page that displays detailed information about a specific book. This page is dynamically generated based on the book's ISBN.
 
+--
 ### Context
 
-The application uses a context (ParentContext) to manage the state of book data. This context is provided at a higher level to ensure that book data is available to all components that need it.
+The application uses a context (BookContext) to manage the state of book data. This context is provided at a higher level to ensure that book data is available to all components that need it.
+
+### Testing
+
+The application includes comprehensive unit testing to ensure its optimal performance and functionality. These tests cover various aspects of the application's components, features, and interactions.
+
 
 ## Installation
 
