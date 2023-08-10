@@ -33,11 +33,6 @@ A page that displays detailed information about a specific book. This page is dy
 
 The application uses a context (BookContext) to manage the state of book data. This context is provided at a higher level to ensure that book data is available to all components that need it.
 
-### Testing
-
-The application includes comprehensive unit testing to ensure its optimal performance and functionality. These tests cover various aspects of the application's components, features, and interactions.
-
-
 ## Installation
 
 1. Clone the repository:
@@ -54,9 +49,13 @@ The application includes comprehensive unit testing to ensure its optimal perfor
 
 Open your browser and navigate to `http://localhost:3000` to see the app in action.
 
+## Type Safety & Scalability with TypeScript
+
+By embracing TypeScript's static typing, our app prevents errors, enhances code clarity, and promotes scalability. TypeScript detects issues during development, streamlining collaboration and providing clear data insights.
+
 ## Testing
 
-Unit tests have been implemented for the `BookCard` component using `@testing-library/react` and `jest`. To run the tests:
+The application includes comprehensive unit testing to ensure its optimal performance and functionality. These tests cover various aspects of the application's components, features, and interactions.
 
 `npm run test`
 
