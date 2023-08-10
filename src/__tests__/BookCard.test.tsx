@@ -51,3 +51,13 @@ test("clicking the button navigates to book details", () => {
 
   expect(mockPush).toHaveBeenCalledWith("book/123");
 });
+
+test("show description when title is clicked", () => {
+  const { getByText } = render(<BookCard item={mockItem} />);
+  const title = getByText("Book 1 Title");
+
+  fireEvent.click(title);
+
+  const description = getByText("A great book");
+  expect(description).toBeInTheDocument();
+});
