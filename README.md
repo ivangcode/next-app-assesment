@@ -42,19 +42,13 @@ The application includes comprehensive unit testing to ensure its optimal perfor
 
 1. Clone the repository:
 
-bashCopy code
-
 `git clone https://github.com/your-username/library-app.git cd library-app`
 
 2. Install dependencies:
 
-bashCopy code
-
 `npm install`
 
 3. Run the development server:
-
-bashCopy code
 
 `npm run dev`
 
@@ -64,9 +58,7 @@ Open your browser and navigate to `http://localhost:3000` to see the app in acti
 
 Unit tests have been implemented for the `BookCard` component using `@testing-library/react` and `jest`. To run the tests:
 
-bashCopy code
-
-`npm test`
+`npm run test`
 
 ## Future Enhancements
 
