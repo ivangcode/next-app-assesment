@@ -1,0 +1,17 @@
+.main {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #141a1f;
+}
+
+.book__header {
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 30px;
+}
